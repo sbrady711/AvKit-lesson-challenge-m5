@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import AVKit
 
 @main
 struct AvKit_lesson_challenge_m5App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(HawkVmodel())
         }
     }
 }

@@ -11,6 +11,13 @@
 		C53021BE29AD1FDC002A176B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53021BD29AD1FDC002A176B /* ContentView.swift */; };
 		C53021C029AD1FDF002A176B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53021BF29AD1FDF002A176B /* Assets.xcassets */; };
 		C53021C429AD1FDF002A176B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53021C329AD1FDF002A176B /* Preview Assets.xcassets */; };
+		C53021CF29AD2182002A176B /* Hawk.json in Resources */ = {isa = PBXBuildFile; fileRef = C53021CE29AD2182002A176B /* Hawk.json */; };
+		C53021D129AD2254002A176B /* HawkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53021D029AD2254002A176B /* HawkModel.swift */; };
+		C53021D329AD22CA002A176B /* HawkVmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53021D229AD22CA002A176B /* HawkVmodel.swift */; };
+		C53021D529AD2F72002A176B /* Description View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53021D429AD2F72002A176B /* Description View.swift */; };
+		C53021D729AD419C002A176B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53021D629AD419C002A176B /* VideoPlayerView.swift */; };
+		C53021D929AD4252002A176B /* Videodata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53021D829AD4252002A176B /* Videodata.swift */; };
+		C53021DB29AD54BA002A176B /* descriptionText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53021DA29AD54BA002A176B /* descriptionText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		C53021BF29AD1FDF002A176B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C53021C129AD1FDF002A176B /* AvKit_lesson_challenge_m5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AvKit_lesson_challenge_m5.entitlements; sourceTree = "<group>"; };
 		C53021C329AD1FDF002A176B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C53021CE29AD2182002A176B /* Hawk.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hawk.json; sourceTree = "<group>"; };
+		C53021D029AD2254002A176B /* HawkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkModel.swift; sourceTree = "<group>"; };
+		C53021D229AD22CA002A176B /* HawkVmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkVmodel.swift; sourceTree = "<group>"; };
+		C53021D429AD2F72002A176B /* Description View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Description View.swift"; sourceTree = "<group>"; };
+		C53021D629AD419C002A176B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		C53021D829AD4252002A176B /* Videodata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videodata.swift; sourceTree = "<group>"; };
+		C53021DA29AD54BA002A176B /* descriptionText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descriptionText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,11 @@
 		C53021BA29AD1FDC002A176B /* AvKit lesson challenge m5 */ = {
 			isa = PBXGroup;
 			children = (
+				C53021CD29AD2028002A176B /* Views */,
+				C53021CC29AD201E002A176B /* ViewModels */,
+				C53021CB29AD2017002A176B /* Models */,
+				C53021CA29AD2007002A176B /* Data */,
 				C53021BB29AD1FDC002A176B /* AvKit_lesson_challenge_m5App.swift */,
-				C53021BD29AD1FDC002A176B /* ContentView.swift */,
 				C53021BF29AD1FDF002A176B /* Assets.xcassets */,
 				C53021C129AD1FDF002A176B /* AvKit_lesson_challenge_m5.entitlements */,
 				C53021C229AD1FDF002A176B /* Preview Content */,
@@ -67,6 +84,42 @@
 				C53021C329AD1FDF002A176B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C53021CA29AD2007002A176B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C53021CE29AD2182002A176B /* Hawk.json */,
+				C53021D829AD4252002A176B /* Videodata.swift */,
+				C53021DA29AD54BA002A176B /* descriptionText.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C53021CB29AD2017002A176B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C53021D029AD2254002A176B /* HawkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C53021CC29AD201E002A176B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C53021D229AD22CA002A176B /* HawkVmodel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C53021CD29AD2028002A176B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C53021BD29AD1FDC002A176B /* ContentView.swift */,
+				C53021D429AD2F72002A176B /* Description View.swift */,
+				C53021D629AD419C002A176B /* VideoPlayerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53021CF29AD2182002A176B /* Hawk.json in Resources */,
 				C53021C429AD1FDF002A176B /* Preview Assets.xcassets in Resources */,
 				C53021C029AD1FDF002A176B /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53021D529AD2F72002A176B /* Description View.swift in Sources */,
+				C53021DB29AD54BA002A176B /* descriptionText.swift in Sources */,
+				C53021D129AD2254002A176B /* HawkModel.swift in Sources */,
+				C53021D329AD22CA002A176B /* HawkVmodel.swift in Sources */,
+				C53021D929AD4252002A176B /* Videodata.swift in Sources */,
 				C53021BE29AD1FDC002A176B /* ContentView.swift in Sources */,
 				C53021BC29AD1FDC002A176B /* AvKit_lesson_challenge_m5App.swift in Sources */,
+				C53021D729AD419C002A176B /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
